@@ -1,0 +1,174 @@
+palestra:
+  titulo: JavaLover
+  sub-titulo: Conceitos Java e introdução ao Spring Framework
+  palestrante: Bruno Vidal  - Kito Koioto
+  estória-de-apresenção:
+    apresentação:
+      quem-sou-eu: Bruno Vidal - Kito Koito
+      profissão: Desenvolvedor FullStack
+        nota-piada: GIF Severino
+      histórico-com-java:
+        etec:
+          ano: 2014
+          conteudo: Introdução ao Java, Conceitos de Orientação a Objetos e pacote Swing
+        VcpTec:
+          ano: 2018
+          conteudo: Java EE - JPA , Spring Framework, maven
+        Iteris:
+          ano: 2018
+          conteudo: Spring na veia -> Spring boot, cloud, mvc , data ,security, test, microsserviços
+        Opah:
+          ano: 2019
+          conteudo: Modo hard -> Soap , configuração de xml,sistemas lagacy
+    conhecendo-publico:
+      filtrando: Cade os programadores Java ?
+    hate-java:
+      inicio: Java na faculdade
+        contexto: aluno sendo introduzido ao mundo de TI - usuario padrao
+        hello-word:
+          baixando: JDK vs JRE
+            nota-piada: GIF olhando estranho
+          configuração: Variaveis de ambiente
+            nota-paida: que porra é essa ?
+            linux: safe
+            windows: precisa configura
+              nota-piada: sabemos que vc usa windows !!! a gente notou (pedido de ativação do windows)
+              tutorial: slides com passo a passo
+            testando:
+              montando-java:
+                buildar:
+                compilar:
+                executar: woooow Hello world !!!!!!
+        vamos-comparar:
+          que-tal-outra-linguagem: JAVAScript
+            tutorial: hello world JS
+              nota-piada: GIF de UAUUUUUUUU
+        concluimos: Java é uma bosta !!!!
+          porder-entrega: inicialmente é baixo
+      por-que-?:
+        faculdade: linguagens nos faz odiar Java C e C++
+        primeiro-contato: causa dor de cabeça entao as primeiras lembranças se tornam negativas
+    love-java:
+      meus-motivos:
+        motivo-1: 3 Bilhoes de devices usam java
+          nota-piada: foto do oracles 3 bilhoes
+        motivo-2: Java é multplata forma graças a JVM
+          nota-piada: Gif dinheiro
+        motivo-3: Gama de Api
+          nota-piada: Gif tesouro
+        motivo-4: Pela comunidado
+          nota-piada: Forever-Alone
+        motivo-5: Fazemos por amor
+          nota-piada: SALARIO
+          nota-piada: bater no controle trocar I JAVA LOVER
+    modulos: Introdução ja passou
+      conhecendo-spring-framework:
+        evolução-java:
+          interação-com-a-plateia: Slides-sequenciais
+            modo-interação: titulo
+              sabe: levenata duas mãos
+                nota-piada: usaram desodorante
+              ja-ouviu-falar: levanta uma mao
+            vamos-começar:
+              slide-1: Eu adoro Maçãs, vcs conhecem maçãs ?
+              slide-2: Assim como o Rogério ama potatoes, vc conhecem potatoes ?
+              slide-3: Como a jack e gifs de gatinhos
+              slide-3.1: Como a Jessica adora um chapeu e kit de higieni basica
+              slide-4: vcs Conhecem Java ?
+              slide-5: JVM ?
+              slide-6: Orientação a Objetos ?
+              slide-7: pacote Utils e suas Collections
+              slide-8: pacote Swing ?
+              slide-9: jdbc ?
+              slide-10: dao ?
+              slide-11: JAVA EE ?
+              slide-12: Servlet ?
+              slide-13: Tomcat (Servlet-Container)
+              slide-14: JPA
+              slide-15: hibernate
+              slide-16: Web Service
+              slide-17: REST / RestFul
+              slide-18: SOA / SOAP
+              slide-19: MVC
+              slide-20: JSP
+              slide-21: JSF
+              slide-22: Json
+              slide-23: XML
+              slide-24: Anotations
+              slide-25: Reflactions
+              nota-piada: GIF de maratona
+              pricipal-motivo: orientar sobre os titulos que podemos estudar para intrar no mercado de programadores java
+            história-até-o-spring:
+              quem-foi-criador: Rod Johnson, 2004
+              vantagens-do-spring:
+              mercado:
+              modulos:
+                spring-mvc:
+                spring-data:
+                spring-security:
+                spring-social:
+                spring-test:
+                spring-cloud:
+                spring-boot:
+              como-funciona:
+                baseado-em-padroes:
+                  ioC:
+                  di:
+                dividido-em-modulos:
+                contexto-do-spring:
+                orquestrador:
+                core-container: nucle
+                  gerenciador:
+                  beanFactory: cuida dos objetos
+              spring-boot:
+                sem-perder-tempo:
+                mao-na-massa:
+      crud-spring-boot: vamos desenvolver Api Gerenciador de Programadores
+        caso-de-uso:
+          funcionalidades:
+            programador:
+              nome: string
+              cpf: string
+              linguagens: relacionamento
+              nivel: Enum
+            linguagem:
+              nome: String
+              fortemente-tipada: Boolean
+              paradigma: Enum
+        montando-hello-world:
+          spring.io:
+            dependencias:
+              core:
+              web:
+              jpa:
+              mysql:
+          montando-estrutura:
+            montando-controller:
+            falha-datasource:
+              entendendo-properties:
+            hw-postman:
+              meme: cerebro explodindo
+            mapeando-entidades:
+            criando-repositórios:
+            criando-services:
+            crud-linguagens:
+            crud-developer:
+            test-crud:
+              referenci-recursive-error:
+            introduzindo-dtos:
+            finaliando-testes:
+    finalização:
+      veiculos-de-aprendizado:
+        primordial-b-a-ba:
+          Youtube:
+            michelle-brito:
+            devdojo:
+            algaworks:
+          spring-guide:
+          Alura:
+          DevMedia: <3
+          Udemy:
+      questions:
+      minhas-redes:
+      agradecimentos:  
+
